@@ -1,0 +1,189 @@
+*** Log opened 2020-11-25 15:12:42.879722
+2020-11-25 15:12:42.883710 - Function: "cfmsopt( "REMEVAL RESERVE", "ON" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.927593 - Function: "cfmopwk( 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.928590 - Server: "<LOCAL>" - Function: "cfmfame( "/-$Answer = VERSION" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.929588 - Function: "fame_get_db_dates( 0, 1290784362929, 1290784362929 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.929588 - Function: "fame_info( 0, "$Answer", 2, 1, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784362929, 1290784362929, "", 100, 0, "", 0, 7 )" - Result: 18 - Elapsed: 
+2020-11-25 15:12:42.929588 - Function: "fame_get_numerics( 0, "$Answer", 3075345726984,0,0, 11.73 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.930585 - Server: "<LOCAL>" - Function: "cfmfame( "Load "C:\python_connector\fame_connector_beta2\fameconnector"" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.931582 - Server: "<LOCAL>" - Function: "cfmfame( "/-$Answer = @FUNC" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.931582 - Function: "fame_get_db_dates( 0, 1290784362932, 1290784362932 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.931582 - Function: "fame_info( 0, "$Answer", 2, 4, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784362932, 1290784362932, "", 100, 0, "", 0, 5 )" - Result: 18 - Elapsed: 
+2020-11-25 15:12:42.931582 - Function: "fame_len_strings( 0, "$Answer", 140712301176238,8318823007734479427,149689728, 253 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.931582 - Function: "fame_get_strings( 0, "$Answer", 140712301176238,8318823007734479427,149689728, "$ALIGNSERIES, $EVAL_OPT, $FAMEDATETOEXCELDATE, $FAMEOLEVERSION, $FREQ_COUNT, $GET_DATE, $INTRADAY_DIVISOR, $INTRADAY_OBS_TO_EXCEL, $INTRADAY_TO_EXCEL, $IS_INTRADAY, $IS_MISSING, $OPTIONAL, $POPGETWHICHDATA, $POPISLOCAL, $POPSETWHICH, $POPVERSION, $SPLIT", 253, 253 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.932579 - Server: "<LOCAL>" - Function: "cfmfame( "/-$Answer = $PopVersion()" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.932579 - Function: "fame_get_db_dates( 0, 1290784362933, 1290784362933 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.932579 - Function: "fame_info( 0, "$Answer", 2, 1, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784362933, 1290784362933, "", 100, 0, "", 0, 13 )" - Result: 18 - Elapsed: 
+2020-11-25 15:12:42.932579 - Function: "fame_get_numerics( 0, "$Answer", 140712301176238,8318823007734479427,149689728, 6.02 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.934576 - Server: "<LOCAL>" - Function: "cfmfame( "$init" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.934576 - Function: "fame_get_db_dates( 0, 1290784362935, 1290784362935 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.934576 - Function: "fame_info( 0, "wcb_init_error", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784362934, 1290784362934, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.934576 - Function: "fame_get_booleans( 0, "wcb_init_error", 1641847565,1013612281856,1768843556, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.934576 - Function: "fame_get_db_dates( 0, 1290784362935, 1290784362935 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.934576 - Function: "fame_info( 0, "wcb_init_warning", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784362934, 1290784362934, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.934576 - Function: "fame_get_booleans( 0, "wcb_init_warning", 140712301176238,8318823007734479427,149689728, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.935572 - Function: "fame_get_db_dates( 0, 1290784362935, 1290784362935 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.935572 - Function: "fame_quick_info( 0, "wcb_found_opendb_txt", 0, 0, 0, 9223372036854775805, 9223372036854775805 )" - Result: 13 - Elapsed: 
+2020-11-25 15:12:42.936568 - Server: "<LOCAL>" - Function: "cfmfame( "OPEN <ACCESS READ> "%FAME%\util\samplev4.db" AS sam" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.937566 - Server: "<LOCAL>" - Function: "cfmfame( "OPEN <ACCESS READ> "%FAME%\util\training.db" AS tr" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.938564 - Server: "<LOCAL>" - Function: "cfmfame( "OPEN <ACCESS READ> "C:\famedb\detoms.db" AS detoms" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.938564 - Server: "<LOCAL>" - Function: "cfmfame( "" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.939561 - Server: "<LOCAL>" - Function: "cfmfame( "-- to connect remote mcadbs replace port number and hostname" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.940558 - Server: "<LOCAL>" - Function: "cfmfame( "-- below and uncomment" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.940558 - Server: "<LOCAL>" - Function: "cfmfame( "-- 'db1' and 'db2' are databases opened on mcabds" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.941555 - Server: "<LOCAL>" - Function: "cfmfame( "--connect to "portnumber" on "fully qualified hostname" as con" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.941555 - Server: "<LOCAL>" - Function: "cfmfame( "--OPEN <ACCESS READ> db1, db2 ON con" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.942553 - Server: "<LOCAL>" - Function: "cfmfame( "$SET_DATE "BUSINESS", "0", "0", 0" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.943550 - Function: "fame_get_db_dates( 0, 1290784362943, 1290784362943 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.943550 - Function: "fame_info( 0, "wcb_is_error", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784362934, 1290784362943, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.943550 - Function: "fame_get_booleans( 0, "wcb_is_error", 1641886253,3075343504064,176635104, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Server: "<LOCAL>" - Function: "cfmfame( "$GET_DATA "chr(126)"" )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "fame_get_db_dates( 0, 1290784362944, 1290784362944 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "fame_info( 0, "wcb_is_error", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784362934, 1290784362944, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "fame_get_booleans( 0, "wcb_is_error", 1641886253,1015946340816,176635104, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "fame_get_db_dates( 0, 1290784362944, 1290784362944 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "fame_info( 0, "wcn_data", 2, 2, 0, 1, 1, 0, 0, 1290784362934, 1290784362944, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "cfmncnt( 0, "WCN_DATA", 1 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "cfmnlen( 0, "WCN_DATA", 1, 9 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "cfmgtnl( 0, "WCN_DATA", 1, "WU_OBJECT", 9, 9 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "fame_get_db_dates( 0, 1290784362944, 1290784362944 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "fame_info( 0, "wcn_dates", 2, 2, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784362934, 1290784362944, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "cfmncnt( 0, "WCN_DATES", 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.944547 - Function: "fame_get_db_dates( 0, 1290784362944, 1290784362944 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.945545 - Function: "fame_info( 0, "WU_OBJECT", 2, 4, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784362944, 1290784362944, "", 100, 0, "", 0, 23 )" - Result: 18 - Elapsed: 
+2020-11-25 15:12:42.945545 - Function: "fame_len_strings( 0, "WU_OBJECT", 1641846445,1015946340688,139500032, 1 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.945545 - Function: "fame_get_strings( 0, "WU_OBJECT", 1641846445,1015946340688,139500032, "~", 1, 1 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:42.963497 - Server: "<LOCAL>" - Function: "cfmfame( "EXIT" )" - Result: 60 - Elapsed: 
+2020-11-25 15:12:42.963497 - Function: "fame_get_db_dates( 0, 1641829581, 1641829581 )" - Result: 6 - Elapsed: 
+2020-11-25 15:12:43.001402 - Function: "cfmopwk( 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:43.006388 - Function: "cfmcldb( 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:12:43.006388 - Function: "cfmcldb( 0 )" - Result: 6 - Elapsed: 
+2020-11-25 15:12:43.019353 - Function: "cfmfin( )" - Result: 0 - Elapsed: 
+*** Log closed 2020-11-25 15:12:43.019353
+
+*** Log opened 2020-11-25 15:15:14.430429
+2020-11-25 15:15:14.432424 - Function: "cfmsopt( "REMEVAL RESERVE", "ON" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.470708 - Function: "cfmopwk( 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.472707 - Server: "<LOCAL>" - Function: "cfmfame( "/-$Answer = VERSION" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.472707 - Function: "fame_get_db_dates( 0, 1290784514473, 1290784514473 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.472707 - Function: "fame_info( 0, "$Answer", 2, 1, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784514473, 1290784514473, "", 100, 0, "", 0, 7 )" - Result: 18 - Elapsed: 
+2020-11-25 15:15:14.472707 - Function: "fame_get_numerics( 0, "$Answer", 1374997564936,0,0, 11.73 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.473703 - Server: "<LOCAL>" - Function: "cfmfame( "Load "C:\python_connector\fame_connector_beta2\fameconnector"" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.475698 - Server: "<LOCAL>" - Function: "cfmfame( "/-$Answer = @FUNC" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.475698 - Function: "fame_get_db_dates( 0, 1290784514476, 1290784514476 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.475698 - Function: "fame_info( 0, "$Answer", 2, 4, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784514476, 1290784514476, "", 100, 0, "", 0, 5 )" - Result: 18 - Elapsed: 
+2020-11-25 15:15:14.475698 - Function: "fame_len_strings( 0, "$Answer", 140712301176238,8318823007734479427,608572800, 253 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.475698 - Function: "fame_get_strings( 0, "$Answer", 140712301176238,8318823007734479427,608572800, "$ALIGNSERIES, $EVAL_OPT, $FAMEDATETOEXCELDATE, $FAMEOLEVERSION, $FREQ_COUNT, $GET_DATE, $INTRADAY_DIVISOR, $INTRADAY_OBS_TO_EXCEL, $INTRADAY_TO_EXCEL, $IS_INTRADAY, $IS_MISSING, $OPTIONAL, $POPGETWHICHDATA, $POPISLOCAL, $POPSETWHICH, $POPVERSION, $SPLIT", 253, 253 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.476696 - Server: "<LOCAL>" - Function: "cfmfame( "/-$Answer = $PopVersion()" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.476696 - Function: "fame_get_db_dates( 0, 1290784514477, 1290784514477 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.477692 - Function: "fame_info( 0, "$Answer", 2, 1, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784514477, 1290784514477, "", 100, 0, "", 0, 13 )" - Result: 18 - Elapsed: 
+2020-11-25 15:15:14.477692 - Function: "fame_get_numerics( 0, "$Answer", 140712301176238,8318823007734479427,608572800, 6.02 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.478723 - Server: "<LOCAL>" - Function: "cfmfame( "$init" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.478723 - Function: "fame_get_db_dates( 0, 1290784514479, 1290784514479 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.479687 - Function: "fame_info( 0, "wcb_init_error", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784514478, 1290784514478, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.479687 - Function: "fame_get_booleans( 0, "wcb_init_error", 1641847565,42949672960,1768843556, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.479687 - Function: "fame_get_db_dates( 0, 1290784514479, 1290784514479 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.479687 - Function: "fame_info( 0, "wcb_init_warning", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784514478, 1290784514478, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.479687 - Function: "fame_get_booleans( 0, "wcb_init_warning", 140712301176238,8318823007734479427,608572800, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.479687 - Function: "fame_get_db_dates( 0, 1290784514479, 1290784514479 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.479687 - Function: "fame_quick_info( 0, "wcb_found_opendb_txt", 0, 0, 0, 9223372036854775805, 9223372036854775805 )" - Result: 13 - Elapsed: 
+2020-11-25 15:15:14.480685 - Server: "<LOCAL>" - Function: "cfmfame( "OPEN <ACCESS READ> "%FAME%\util\samplev4.db" AS sam" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.482680 - Server: "<LOCAL>" - Function: "cfmfame( "OPEN <ACCESS READ> "%FAME%\util\training.db" AS tr" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.483676 - Server: "<LOCAL>" - Function: "cfmfame( "OPEN <ACCESS READ> "C:\famedb\detoms.db" AS detoms" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.483676 - Server: "<LOCAL>" - Function: "cfmfame( "" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.484674 - Server: "<LOCAL>" - Function: "cfmfame( "-- to connect remote mcadbs replace port number and hostname" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.485671 - Server: "<LOCAL>" - Function: "cfmfame( "-- below and uncomment" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.485671 - Server: "<LOCAL>" - Function: "cfmfame( "-- 'db1' and 'db2' are databases opened on mcabds" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.486668 - Server: "<LOCAL>" - Function: "cfmfame( "--connect to "portnumber" on "fully qualified hostname" as con" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.487666 - Server: "<LOCAL>" - Function: "cfmfame( "--OPEN <ACCESS READ> db1, db2 ON con" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.488663 - Server: "<LOCAL>" - Function: "cfmfame( "$SET_DATE "BUSINESS", "0", "0", 0" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.488663 - Function: "fame_get_db_dates( 0, 1290784514489, 1290784514489 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.488663 - Function: "fame_info( 0, "wcb_is_error", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784514478, 1290784514489, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.488663 - Function: "fame_get_booleans( 0, "wcb_is_error", 1641886253,1374995337920,635583712, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.489660 - Server: "<LOCAL>" - Function: "cfmfame( "$GET_DATA "chr(126)"" )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "fame_get_db_dates( 0, 1290784514490, 1290784514490 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "fame_info( 0, "wcb_is_error", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784514478, 1290784514490, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "fame_get_booleans( 0, "wcb_is_error", 1641886253,43840890496,635583712, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "fame_get_db_dates( 0, 1290784514490, 1290784514490 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "fame_info( 0, "wcn_data", 2, 2, 0, 1, 1, 0, 0, 1290784514478, 1290784514490, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "cfmncnt( 0, "WCN_DATA", 1 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "cfmnlen( 0, "WCN_DATA", 1, 9 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "cfmgtnl( 0, "WCN_DATA", 1, "WU_OBJECT", 9, 9 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "fame_get_db_dates( 0, 1290784514490, 1290784514490 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "fame_info( 0, "wcn_dates", 2, 2, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784514478, 1290784514490, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "cfmncnt( 0, "WCN_DATES", 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.490658 - Function: "fame_get_db_dates( 0, 1290784514490, 1290784514490 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.491656 - Function: "fame_info( 0, "WU_OBJECT", 2, 4, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1290784514490, 1290784514490, "", 100, 0, "", 0, 23 )" - Result: 18 - Elapsed: 
+2020-11-25 15:15:14.491656 - Function: "fame_len_strings( 0, "WU_OBJECT", 1641846445,43840890368,598382592, 1 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.491656 - Function: "fame_get_strings( 0, "WU_OBJECT", 1641846445,43840890368,598382592, "~", 1, 1 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.510332 - Server: "<LOCAL>" - Function: "cfmfame( "EXIT" )" - Result: 60 - Elapsed: 
+2020-11-25 15:15:14.510332 - Function: "fame_get_db_dates( 0, 1641829581, 1641829581 )" - Result: 6 - Elapsed: 
+2020-11-25 15:15:14.549230 - Function: "cfmopwk( 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.552200 - Function: "cfmcldb( 0 )" - Result: 0 - Elapsed: 
+2020-11-25 15:15:14.552200 - Function: "cfmcldb( 0 )" - Result: 6 - Elapsed: 
+2020-11-25 15:15:14.562175 - Function: "cfmfin( )" - Result: 0 - Elapsed: 
+*** Log closed 2020-11-25 15:15:14.562175
+
+*** Log opened 2020-11-30 17:10:28.592743
+2020-11-30 17:10:28.596733 - Function: "cfmsopt( "REMEVAL RESERVE", "ON" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.640369 - Function: "cfmopwk( 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.642367 - Server: "<LOCAL>" - Function: "cfmfame( "/-$Answer = VERSION" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.642367 - Function: "fame_get_db_dates( 0, 1291223428642, 1291223428642 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.642367 - Function: "fame_info( 0, "$Answer", 2, 1, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1291223428642, 1291223428642, "", 100, 0, "", 0, 7 )" - Result: 18 - Elapsed: 
+2020-11-30 17:10:28.642367 - Function: "fame_get_numerics( 0, "$Answer", 0,0,2, 11.73 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.643364 - Server: "<LOCAL>" - Function: "cfmfame( "Load "C:\python_connector\fame_connector_beta2\fameconnector"" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.644362 - Server: "<LOCAL>" - Function: "cfmfame( "/-$Answer = @FUNC" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.644362 - Function: "fame_get_db_dates( 0, 1291223428645, 1291223428645 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.644362 - Function: "fame_info( 0, "$Answer", 2, 4, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1291223428645, 1291223428645, "", 100, 0, "", 0, 5 )" - Result: 18 - Elapsed: 
+2020-11-30 17:10:28.644362 - Function: "fame_len_strings( 0, "$Answer", 140706376193571,8318823007734479427,0, 253 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.644362 - Function: "fame_get_strings( 0, "$Answer", 140706376193571,8318823007734479427,0, "$ALIGNSERIES, $EVAL_OPT, $FAMEDATETOEXCELDATE, $FAMEOLEVERSION, $FREQ_COUNT, $GET_DATE, $INTRADAY_DIVISOR, $INTRADAY_OBS_TO_EXCEL, $INTRADAY_TO_EXCEL, $IS_INTRADAY, $IS_MISSING, $OPTIONAL, $POPGETWHICHDATA, $POPISLOCAL, $POPSETWHICH, $POPVERSION, $SPLIT", 253, 253 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.645359 - Server: "<LOCAL>" - Function: "cfmfame( "/-$Answer = $PopVersion()" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.645359 - Function: "fame_get_db_dates( 0, 1291223428646, 1291223428646 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.645359 - Function: "fame_info( 0, "$Answer", 2, 1, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1291223428646, 1291223428646, "", 100, 0, "", 0, 13 )" - Result: 18 - Elapsed: 
+2020-11-30 17:10:28.645359 - Function: "fame_get_numerics( 0, "$Answer", 140706376193571,8318823007734479427,0, 6.02 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.647354 - Server: "<LOCAL>" - Function: "cfmfame( "$init" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.647354 - Function: "fame_get_db_dates( 0, 1291223428648, 1291223428648 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.647354 - Function: "fame_info( 0, "wcb_init_error", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1291223428647, 1291223428647, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.647354 - Function: "fame_get_booleans( 0, "wcb_init_error", 1641847565,257698037760,1768843556, 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.647354 - Function: "fame_get_db_dates( 0, 1291223428648, 1291223428648 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.647354 - Function: "fame_info( 0, "wcb_init_warning", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1291223428647, 1291223428647, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.647354 - Function: "fame_get_booleans( 0, "wcb_init_warning", 140706376193571,8318823007734479427,0, 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.648351 - Function: "fame_get_db_dates( 0, 1291223428648, 1291223428648 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.648351 - Function: "fame_quick_info( 0, "wcb_found_opendb_txt", 0, 0, 0, 9223372036854775805, 9223372036854775805 )" - Result: 13 - Elapsed: 
+2020-11-30 17:10:28.649348 - Server: "<LOCAL>" - Function: "cfmfame( "OPEN <ACCESS READ> "%FAME%\util\samplev4.db" AS sam" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.650345 - Server: "<LOCAL>" - Function: "cfmfame( "OPEN <ACCESS READ> "%FAME%\util\training.db" AS tr" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.651343 - Server: "<LOCAL>" - Function: "cfmfame( "OPEN <ACCESS READ> "C:\famedb\detoms.db" AS detoms" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.652340 - Server: "<LOCAL>" - Function: "cfmfame( "" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.652340 - Server: "<LOCAL>" - Function: "cfmfame( "-- to connect remote mcadbs replace port number and hostname" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.653338 - Server: "<LOCAL>" - Function: "cfmfame( "-- below and uncomment" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.654335 - Server: "<LOCAL>" - Function: "cfmfame( "-- 'db1' and 'db2' are databases opened on mcabds" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.654335 - Server: "<LOCAL>" - Function: "cfmfame( "--connect to "portnumber" on "fully qualified hostname" as con" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.655332 - Server: "<LOCAL>" - Function: "cfmfame( "--OPEN <ACCESS READ> db1, db2 ON con" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.656329 - Server: "<LOCAL>" - Function: "cfmfame( "$SET_DATE "BUSINESS", "0", "0", 0" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.656329 - Function: "fame_get_db_dates( 0, 1291223428657, 1291223428657 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.656329 - Function: "fame_info( 0, "wcb_is_error", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1291223428647, 1291223428657, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.656329 - Function: "fame_get_booleans( 0, "wcb_is_error", 1641886253,1464031325024,-521882848, 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.657327 - Server: "<LOCAL>" - Function: "cfmfame( "$GET_DATA "chr(126)"" )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.657327 - Function: "fame_get_db_dates( 0, 1291223428658, 1291223428658 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.657327 - Function: "fame_info( 0, "wcb_is_error", 2, 3, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1291223428647, 1291223428658, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.657327 - Function: "fame_get_booleans( 0, "wcb_is_error", 1641886253,261068088592,-521882848, 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.657327 - Function: "fame_get_db_dates( 0, 1291223428658, 1291223428658 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "fame_info( 0, "wcn_data", 2, 2, 0, 1, 1, 0, 0, 1291223428647, 1291223428658, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "cfmncnt( 0, "WCN_DATA", 1 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "cfmnlen( 0, "WCN_DATA", 1, 9 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "cfmgtnl( 0, "WCN_DATA", 1, "WU_OBJECT", 9, 9 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "fame_get_db_dates( 0, 1291223428658, 1291223428658 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "fame_info( 0, "wcn_dates", 2, 2, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1291223428647, 1291223428658, "", 100, 0, "", 0, 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "cfmncnt( 0, "WCN_DATES", 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "fame_get_db_dates( 0, 1291223428658, 1291223428658 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "fame_info( 0, "WU_OBJECT", 2, 4, 0, 9223372036854775805, 9223372036854775805, 0, 0, 1291223428658, 1291223428658, "", 100, 0, "", 0, 23 )" - Result: 18 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "fame_len_strings( 0, "WU_OBJECT", 1641846445,261068088464,-521965568, 1 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.658325 - Function: "fame_get_strings( 0, "WU_OBJECT", 1641846445,261068088464,-521965568, "~", 1, 1 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.668207 - Server: "<LOCAL>" - Function: "cfmfame( "EXIT" )" - Result: 60 - Elapsed: 
+2020-11-30 17:10:28.668207 - Function: "fame_get_db_dates( 0, 1641829581, 1641829581 )" - Result: 6 - Elapsed: 
+2020-11-30 17:10:28.705323 - Function: "cfmopwk( 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.707761 - Function: "cfmcldb( 0 )" - Result: 0 - Elapsed: 
+2020-11-30 17:10:28.707761 - Function: "cfmcldb( 0 )" - Result: 6 - Elapsed: 
+2020-11-30 17:10:28.717740 - Function: "cfmfin( )" - Result: 0 - Elapsed: 
+*** Log closed 2020-11-30 17:10:28.717740
+
